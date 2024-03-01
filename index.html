@@ -4,28 +4,66 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>template</title>
-    <link rel="stylesheet" href="./fonts/font.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="py-rem">
-      <div class="container">
-        <nav>
-          <a href="#">Home</a>
-        </nav>
+      <div class="otstyp">
+        <div class="container">
+          <nav>
+            <ul class="header-nav">
+              <li><a href="#"> auto.ria</a></li>
+              <li><a href="#">Автомобили</a></li>
+              <li><a href="#">Автозапчасти</a></li>
+              <li><a href="#">Недвижимость</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
     <main>
       <section class="py-rem first-section">
-        <div class="container">
-          <h1>main title.</h1>
-          <hr class="my-rem" />
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id porro
-            voluptas voluptates. Ullam inventore corporis quaerat nulla,
-            reprehenderit ipsam perferendis eligendi non autem id quidem
-            perspiciatis maiores voluptatibus cum voluptatem.
-          </p>
+        <div class="otstyp">
+          <div class="container">
+            <h1>Расширенный поиск б/у авто</h1>
+            <p>Реєстрація</p>
+            <hr class="my-rem" />
+            <form action="#" method="post">
+              <div>
+                <label for="email"> Email </label>
+                <input
+                  id="email"
+                  type="email"
+                  name="user-email"
+                  placeholder="enter your email.."
+                />
+              </div>
+              <div>
+                <label for="pass">Password</label>
+                <input
+                  type="password"
+                  name="userpass"
+                  id="pass"
+                  maxlength="5"
+                />
+              </div>
+              <div>
+                <label for="confirmpass">Confirm password</label>
+                <input
+                  type="password"
+                  name="confpass"
+                  id="confirmpass"
+                  maxlength="5"
+                  required
+                />
+              </div>
+              <p>
+                <a class="autor" href="./autor.html">Авторизація</a>
+              </p>
+
+              <button type="submit">Send</button>
+            </form>
+          </div>
         </div>
       </section>
     </main>
