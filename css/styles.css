@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5 ;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.container {
+  background-color: rgb(187, 177, 177);
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-rem {
+  background-color: #9074c5;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.my-rem {
+  background-color: #71caab;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
