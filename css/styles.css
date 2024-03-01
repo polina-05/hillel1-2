@@ -30,17 +30,4 @@ html {
   padding-bottom: 1rem;
 }
 
-.my-rem {
-  background-color: #71caab;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
 
-img {
-  max-width: 100%;
-}
-
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
